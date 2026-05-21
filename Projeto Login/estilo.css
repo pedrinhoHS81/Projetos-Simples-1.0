@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.itch.zone/aW1hZ2UvMTIxNjU4LzU2MDQxMC5wbmc=/original/hCUwLQ.png);
+    background-size: cover;
+   height: 100vh;
+    color: rgb(252, 252, 252);
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 14px; 
+}
+
+.login-card {
+    padding: auto;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 22px;
+    width: 300px;
+    border: 1px solid rgba(255, 255,255, 0.3);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.416);
+    backdrop-filter: blur(7px);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.input-box {
+    display: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 28px;   
+    margin: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.icon {
+    margin-right: 10px;
+}
+.input-box input {
+    border: none;
+    background: rgba(255, 255, 255, 0.12);
+    flex: 1;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+
+.input-box input::placeholder {
+    color: white;
+}
+
+.options {
+    display: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.link {
+    color: rgb(232, 229, 229);
+    text-decoration: none;
+    margin: 12px;
+}
+
+.link-p{
+    text-decoration: none;
+    margin: 10px;
+}
+
+.bnt {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
