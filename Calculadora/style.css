@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, nelvetica, sans-serif;
+    background-color: rgb(5, 5, 5);
+    background-image: url(https://img.itch.zone/aW1hZ2UvMTIxNjU4LzU2MDQxMC5wbmc=/original/hCUwLQ.png); 
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.calculator {
+    background-color: #000000;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+#display {
+    background-color: #a09c9c;
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    border: none;
+   border-radius: 6px;
+   text-align: right;
+    font-size: 20px;
+    margin-bottom: 16px
+}
+
+.box-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+}
+
+button  {
+    border: none;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #919191;
+    cursor: pointer;
+}
+
+.btn-zero {
+    grid-column: 1 / span 2;
+}
+
+.btn-result {
+    grid-row: 4 / span 2;
+    height: 100%;
+    grid-column: 4;  
+}
